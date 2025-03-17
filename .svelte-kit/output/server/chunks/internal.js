@@ -1,5 +1,5 @@
 import { a as active_reaction, i as is_runes, D as DERIVED, b as BLOCK_EFFECT, d as derived_sources, s as state_unsafe_mutation, c as increment_version, e as DIRTY, f as set_signal_status, C as CLEAN, U as UNOWNED, g as schedule_effect, M as MAYBE_DIRTY, h as active_effect, j as BRANCH_EFFECT, k as new_deps, u as untracked_writes, l as set_untracked_writes, H as HYDRATION_ERROR, m as get_next_sibling, o as define_property, p as set_active_reaction, q as set_active_effect, r as is_array, t as init_operations, v as get_first_child, w as HYDRATION_START, x as HYDRATION_END, y as hydration_failed, z as clear_text_content, A as array_from, E as component_root, F as create_text, G as branch, I as push, J as pop, K as component_context, L as get, N as LEGACY_PROPS, O as flush_sync, P as render, Q as push$1, R as setContext, S as pop$1 } from "./index.js";
-let base = "";
+let base = "/myTodosWeb";
 let assets = base;
 const initial = { base, assets };
 function override(paths) {
@@ -629,7 +629,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "htyo6w"
+  version_hash: "196snpv"
 };
 async function get_hooks() {
   let handle;
